@@ -45,3 +45,7 @@ El siguiente es el driagrama de las tablas qe componen el caso de estudio en el 
 5. ¿Cúales son los meses que han atraido más tráfico?
 6. Ya que vimos el mes que ha tenido más trafico, podrías ver de ese mes la cantidad de sesiones que han venido por movil y la cantidad que han venido por ordenador?
 7. ¿Qué campañas son las que han dado más margen por productos?
+
+para ver el archivo se MYSQL generado dando respuesta a las preguntas del caso de estudio puede dar click en el siguiente link:
+
+https://github.com/guzmajo/PROYECTO-MYSQL-/blob/main/proyecto%20sql.sql
