@@ -25,19 +25,19 @@ Para ello, trabajaremos con el CEO, el director de marketing y el Gerente de la 
 ## Ejecución
 
 ### Análisis de ventas
-Queremos saber cuales son las ventas por año y por mes en términos brutos y luego el margen absoluto.
-¿Cuales son las ventas brutas medias de cada mes y año, devuelve los TOP 10? ¿Que puedes observar?
-¿Cuál es el producto que mas vende en términos monetarios (Ventas brutas)?
-¿Cuál es el producto que deja más margen?
-¿Podemos saber cúal es la fecha de lanzamiento de cada producto?
-Calcula las ventas brutas por año asi como el margen numérico y porcentual de cada producto y ordénalo por producto.
-¿Cuáles son los meses con mayor venta bruta, devuelve los TOP 3?
+1. Queremos saber cuales son las ventas por año y por mes en términos brutos y luego el margen absoluto.
+2. ¿Cuales son las ventas brutas medias de cada mes y año, devuelve los TOP 10? ¿Que puedes observar?
+3. ¿Cuál es el producto que mas vende en términos monetarios (Ventas brutas)?
+4. ¿Cuál es el producto que deja más margen?
+5. ¿Podemos saber cúal es la fecha de lanzamiento de cada producto?
+6. Calcula las ventas brutas por año asi como el margen numérico y porcentual de cada producto y ordénalo por producto.
+7. ¿Cuáles son los meses con mayor venta bruta, devuelve los TOP 3?
 
 ### Análisis de trafico web
-¿Cuales son los ads(anuncios) o contenidos que han atraído más sesiones?
-Es lo mismo sesiones que usuarios?¿Cuál es la cantidad de usuarios individuales?
-¿Y por source o fuente? Cantidad de usuarios y sesiones?
-¿Cúales son las sources o fuentes que han dado más ventas?
-¿Cúales son los meses que han atraido más tráfico?
-Ya que vimos el mes que ha tenido más trafico, podrías ver de ese mes la cantidad de sesiones que han venido por movil y la cantidad que han venido por ordenador?
-¿Qué campañas son las que han dado más margen por productos?
+1. ¿Cuales son los ads(anuncios) o contenidos que han atraído más sesiones?
+2. Es lo mismo sesiones que usuarios?¿Cuál es la cantidad de usuarios individuales?
+3. ¿Y por source o fuente? Cantidad de usuarios y sesiones?
+4. ¿Cúales son las sources o fuentes que han dado más ventas?
+5. ¿Cúales son los meses que han atraido más tráfico?
+6. Ya que vimos el mes que ha tenido más trafico, podrías ver de ese mes la cantidad de sesiones que han venido por movil y la cantidad que han venido por ordenador?
+7. ¿Qué campañas son las que han dado más margen por productos?
