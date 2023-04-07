@@ -24,6 +24,10 @@ Para ello, trabajaremos con el CEO, el director de marketing y el Gerente de la 
 
 ## Ejecución
 
+El siguiente es el driagrama de las tablas qe componen el caso de estudio en el cual se pueden identificar las llaves primarias (PRIMARY KEY) y como se relacionan los datos en cada una de las tablas.
+
+![Image](https://github.com/guzmajo/PROYECTO-MYSQL-/blob/main/osito%20feliz%20diagrama.png)
+
 ### Análisis de ventas
 1. Queremos saber cuales son las ventas por año y por mes en términos brutos y luego el margen absoluto.
 2. ¿Cuales son las ventas brutas medias de cada mes y año, devuelve los TOP 10? ¿Que puedes observar?
