@@ -9,9 +9,9 @@ Proyecto de analisis de datos en MYSQL
 - [Introducción](#introducción)
 - [Objetivos](#objetivos)
 - [Equipo](#equipo)
-- [Ejecución](#ejecución)
-- [Análisis de ventas](#análisis-de-ventas)
-- [Análisis de tráfico web](#análisis-de-tráfico-web)
+- [🚀 Ejecución](#ejecución)
+- [📊 Análisis de ventas](#análisis-de-ventas)
+- [💻 Análisis de trafico web](#análisis-de-tráfico-web)
 
 ## Introducción
 En este proyecto vamos a realizar un estudio de la empresa de ecommerce "OsitoFeliz", que se dedica a vender ositos de peluche super atractivos. Actualmente cuenta con 4 modelos de peluches que ofrecen a sus clientes.
