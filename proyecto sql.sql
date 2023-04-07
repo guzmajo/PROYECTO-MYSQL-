@@ -2,15 +2,82 @@
 
 -- Antes de comenzar a responder a las preguntas de negocio que se nos solicita debemos entender las tablas, como están compuestas y como se relacionan.
 
--- Puntos detectados:
+SELECT * FROM ositofeliz.order_items;
 
--- Rango de tiempo de la tabla de pedidos.
+-- Obtener el número total de registros en la tabla
+SELECT COUNT(*) FROM order_items;
 
-select 
-min(monthcreated_at) as FECHA_INICIAL,
-max(created_at) as FECHA_FINAL
+-- Obtener el rango de fechas de los pedidos
+SELECT MIN(created_at) AS 'Fecha inicial', MAX(created_at) AS 'Fecha final' FROM order_items;
+
+-- Obtener el número de pedidos únicos
+SELECT COUNT(DISTINCT order_id) FROM order_items;
+
+-- Obtener el número de productos únicos
+SELECT COUNT(DISTINCT product_id) FROM order_items;
+
+-- Obtener estadísticas descriptivas para las columnas numéricas
+SELECT AVG(price_usd) AS 'Precio promedio', 
+       MIN(price_usd) AS 'Precio mínimo', 
+       MAX(price_usd) AS 'Precio máximo',
+       AVG(cogs_usd) AS 'Costo promedio', 
+       MIN(cogs_usd) AS 'Costo mínimo', 
+       MAX(cogs_usd) AS 'Costo máximo'
+FROM order_items;
+
+-- Obtener el número total de registros en la tabla
+SELECT COUNT(*) FROM orders;
+
+-- Obtener el rango de fechas de los pedidos
+SELECT MIN(created_at) AS 'Fecha inicial', MAX(created_at) AS 'Fecha final' FROM orders;
+
+-- Obtener el número de pedidos únicos
+SELECT COUNT(DISTINCT order_id) FROM orders;
+
+-- Obtener el número de usuarios únicos
+SELECT COUNT(DISTINCT user_id) FROM orders;
+
+-- Obtener estadísticas descriptivas para las columnas numéricas
+SELECT AVG(price_usd) AS 'Precio promedio', 
+       MIN(price_usd) AS 'Precio mínimo', 
+       MAX(price_usd) AS 'Precio máximo',
+       AVG(cogs_usd) AS 'Costo promedio', 
+       MIN(cogs_usd) AS 'Costo mínimo', 
+       MAX(cogs_usd) AS 'Costo máximo'
 FROM orders;
 
+-- Obtener el número total de registros en la tabla
+SELECT COUNT(*) FROM products;
+
+-- Obtener el rango de fechas de creación de los productos
+SELECT MIN(created_at) AS 'Fecha inicial', MAX(created_at) AS 'Fecha final' FROM products;
+
+-- Obtener el número de productos únicos
+SELECT COUNT(DISTINCT product_id) FROM products;
+
+-- Obtener una lista de todos los nombres de productos
+SELECT product_name FROM products;
+
+-- Obtener el número total de registros en la tabla
+SELECT COUNT(*) FROM website_sessions;
+
+-- Obtener el rango de fechas de las sesiones
+SELECT MIN(created_at) AS 'Fecha inicial', MAX(created_at) AS 'Fecha final' FROM website_sessions;
+
+-- Obtener el número de sesiones únicas
+SELECT COUNT(DISTINCT website_session_id) FROM website_sessions;
+
+-- Obtener el número de usuarios únicos
+SELECT COUNT(DISTINCT user_id) FROM website_sessions;
+
+-- Obtener una lista de todas las fuentes (utm_source)
+SELECT DISTINCT utm_source FROM website_sessions;
+
+-- Obtener una lista de todas las campañas (utm_campaign)
+SELECT DISTINCT utm_campaign FROM website_sessions;
+
+-- Obtener una lista de todos los tipos de dispositivos (device_type)
+SELECT DISTINCT device_type FROM website_sessions;
 
 -- Si cada pedido de la tabla de pedidos tiene más de 1 elemento por eso se relaciona con la tabla de order_item. Entendemos se relaciona con la tabla items_purchase.
 
