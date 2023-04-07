@@ -9,9 +9,9 @@ Proyecto de analisis de datos en MYSQL
 - [Introducción](#introducción)
 - [Objetivos](#objetivos)
 - [Equipo](#equipo)
-- [🚀 Ejecución](#ejecución)
-- [📊 Análisis de ventas](#análisis-de-ventas)
-- [💻 Análisis de trafico web](#análisis-de-tráfico-web)
+- [Ejecución](#ejecución)
+- [Análisis de ventas](#análisis-de-ventas)
+- [Análisis de trafico web](#análisis-de-tráfico-web)
 
 ## Introducción
 En este proyecto vamos a realizar un estudio de la empresa de ecommerce "OsitoFeliz", que se dedica a vender ositos de peluche super atractivos. Actualmente cuenta con 4 modelos de peluches que ofrecen a sus clientes.
@@ -22,9 +22,9 @@ Nuestro objetivo es analizar la situación actual de la empresa, medir la conver
 ## Equipo
 Para ello, trabajaremos con el CEO, el director de marketing y el Gerente de la web, que nos proporcionarán los datos necesarios y nos orientarán sobre las preguntas clave que queremos responder. Esperamos que este proyecto nos ayude a identificar las fortalezas y debilidades de la empresa, así como las oportunidades y amenazas del mercado, y a proponer acciones de mejora basadas en evidencia.
 
-## 🚀 Ejecución
+## Ejecución
 
-### 📊 Análisis de ventas
+### Análisis de ventas
 Queremos saber cuales son las ventas por año y por mes en términos brutos y luego el margen absoluto.
 ¿Cuales son las ventas brutas medias de cada mes y año, devuelve los TOP 10? ¿Que puedes observar?
 ¿Cuál es el producto que mas vende en términos monetarios (Ventas brutas)?
@@ -33,7 +33,7 @@ Queremos saber cuales son las ventas por año y por mes en términos brutos y lu
 Calcula las ventas brutas por año asi como el margen numérico y porcentual de cada producto y ordénalo por producto.
 ¿Cuáles son los meses con mayor venta bruta, devuelve los TOP 3?
 
-### 💻 Análisis de trafico web
+### Análisis de trafico web
 ¿Cuales son los ads(anuncios) o contenidos que han atraído más sesiones?
 Es lo mismo sesiones que usuarios?¿Cuál es la cantidad de usuarios individuales?
 ¿Y por source o fuente? Cantidad de usuarios y sesiones?
