@@ -26,7 +26,7 @@ Para ello, trabajaremos con el CEO, el director de marketing y el Gerente de la 
 
 ## Ejecución
 
-El siguiente es el diagrama de las tablas qe componen el caso de estudio en el cual se pueden identificar las llaves primarias (PRIMARY KEY) y como se relacionan los datos en cada una de las tablas.
+El siguiente es el diagrama de las tablas que componen el caso de estudio en el cual se pueden identificar las llaves primarias (PRIMARY KEY) y como se relacionan los datos en cada una de las tablas.
 
 ![Image](https://github.com/guzmajo/PROYECTO-MYSQL-/blob/main/osito%20feliz%20diagrama.png)
 
